@@ -6,12 +6,12 @@ body {
 #h1-id {
   margin: auto;
   font-family: 'Sacramento', cursive;
-  font-size: 4rem;
+  font-size: 6rem;
   margin: 10px auto 0 auto;
   color: white;
   line-height: 2;
   text-align: center;
-  padding-top: 15rem;
+    padding-top: 24rem;
 
 }
 
@@ -23,6 +23,9 @@ font-weight: normal;
 text-align: center;
 
 }
+
+
+
 
 
 
@@ -50,6 +53,244 @@ height: 100vh;
 }
 
 .navbar {
-z-index: 2;
+z-index: 1000;
+
     
 }
+
+.skill-row {
+  width: 50%;
+  margin: 75px auto 75px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.skills-img {
+  width: 23%;
+  float: left;
+  margin-right: 30px;
+  clear: left;
+    
+}
+
+#next {
+    background-color: dimgray;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: black;
+}
+
+
+.skills2 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+   
+}
+
+h2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+font-weight: normal;
+text-align: center;
+
+}
+
+.Proj2 {
+    font-family: 'Montserrat', sans-serif;
+font-size: 1rem;
+font-weight: normal;
+text-align: center;
+}
+
+
+
+.skills {
+    margin-bottom: 10%;
+}
+
+
+.bottom-container {
+  background-color: black;
+  padding: 50px 0 20px;
+}
+
+
+
+.end {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 20px 0;
+
+}
+
+
+#credits {
+	padding:40px 0;
+	
+	font-size:12px;
+	line-height: 1.6;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7%;
+    
+}
+#credits a {
+	color:white;
+}
+#credits .social i {
+	border:1px solid #ccc;
+	height:30px;
+	width:30px;
+	line-height:30px;
+	border-radius:50%;
+	margin-left:2px;
+	color: white;
+	text-align:center;
+	margin-bottom:15px;
+	display:inline-block;
+}
+
+
+
+/*	Contact Area	==================================================*/
+
+form { 
+    
+max-width:720px; 
+    
+margin:50px auto; 
+
+}
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid black;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
+
+
+/*projects*/
+.Proj {
+    margin: 2%;
+}
+
+.space {
+    padding: 2%;
+}
+
+
+div.gallery {
+  border: 1px solid white;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+    margin-bottom: 20%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 40px;
+  float: left;
+  width: 49.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+    padding: 30px;
+  }
+    
+    .space {
+    padding: 2%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive {
+    width: 100%;
+  }
+    .space {
+    padding: 4%;
+}
+    #credits {
+    margin-top: 40%;
+    }
+}
+    
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
