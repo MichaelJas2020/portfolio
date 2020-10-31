@@ -297,6 +297,9 @@ div.desc {
 #par {
    	width:130%;
    }
+form {
+    max-width: 720px;
+    margin: 50px 10px;
 }
 
 
