@@ -283,6 +283,17 @@ div.desc {
     #credits {
     margin-top: 30%;
     }
+#h1-id {
+  margin: auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  margin: 10px auto 0 auto;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 16rem;
+
+}
 }
     
 
