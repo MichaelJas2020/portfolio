@@ -319,7 +319,9 @@ font-size: 1.5rem;
     margin: 75px auto 75px 50px;
 
 }
-
+.skills-img {
+    width: 60%;
+    }
 
 }
 
