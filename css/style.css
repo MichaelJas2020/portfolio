@@ -166,6 +166,13 @@ text-align: center;
 	display:inline-block;
 }
 
+h9 {
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+font-weight: normal;
+text-align: center;
+}
+
 
 
 /*	Contact Area	==================================================*/
@@ -304,6 +311,16 @@ form {
 .skills2 {
     width:220px;
 }
+
+h9 {
+font-size: 1.5rem;
+}
+ .skill-row {
+    margin: 75px auto 75px 50px;
+
+}
+
+
 }
 
 
