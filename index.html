@@ -7,12 +7,15 @@
   <title>Michael Jaskiewicz</title>
 <!-- links -->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-
+<!--bootstrap-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 
 
@@ -22,7 +25,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark black">
+    <nav class="navbar navbar-expand-lg navbar-dark black fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#"><strong>MJ</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,13 +34,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#Top">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">My Projects</a>
+                        <a class="nav-link" href="#about-me">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#Projectsmy">My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contactme">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -49,7 +55,91 @@
   <h1 id="h1-id">I'am Michael Jaskiewicz</h1>
  <h2 id="h2-id">A Web Developer</h2>
   </div>
+  <span id="about-me"></span>
   </div>
+  
+    <div class="skills animate__animated animate__bounceInUp">
+    <div class="skill-row">
+      <img class="skills-img" src="img/me.png" alt="" >
+      <h3>About me</h3>
+      <p>I have a firm knowledge of HTML, CSS, SQL, Python and JavaScript language and possess a good knowledge of computer software packages (frameworks and tools). On a personal level, I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest Front and Back-end Development Tools.</p>
+      <br>
+      <ul class="skills2">
+                <li>
+                  <img src="img/files.png" alt="HTML5" class="rounded float-right" title="HTML5" width="100%">
+                </li><br>
+                <li>
+                  <img src="img/html.png" alt="CSS3" title="CSS3" class="rounded float-right" width="100%">
+                </li><br>
+                <li>
+                  <img src="img/javascript.png" alt="JavaScript" class="rounded float-right" title="JavaScript" width="100%">
+                </li><br>
+                <li>
+                  <img src="img/python.png" alt="python" class="rounded float-right" title="python" width="100%">
+                </li><br>
+                <li>
+                  <img src="img/sql-server.png" alt="sql-server" class="rounded float-right" title="sql-server" width="100%">
+                </li>
+              </ul>
+    </div>
+    
+  </div>
+   <hr>
+   
+    
+    <div class="Port" id="Projectsmy">
+       <div class="Proj">
+        <h2>My Projects</h2>
+    </div>
+
+   <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://michaeljas2020.github.io/aefaa.org_web_v3/">
+      <img src="img/AEFAA.JPG" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://michaeljas2020.github.io/Samantha-Sparkles/">
+      <img src="img/Samantha.JPG" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+ </div>
+  
+
+   
+    
+    
+    <!--				contact form starts here               -->
+<!--<div class="Contactme">-->
+<div class="Proj">
+<h2>Get in Touch</h2>
+<p class="Proj2"> If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me using a form below</p>	
+    </div>
+			
+<form>      
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="SUBMIT"/>
+</form>
+<!--</div>-->
+    
+<!--				contact form ends here               -->
+    
+    
+<section id="credits" class="text-center">
+	<br><a href="" id="Contactme">Created By <i class="fa fas fa-cogs"></i> Michael Jaskiewicz</a>
+</section>
+
+
+    
   
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
