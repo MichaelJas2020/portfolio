@@ -92,8 +92,9 @@ z-index: 1000;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     padding-left: 0;
-    margin-left: -5px;
+    margin-left: 25%;
     list-style: none;
+
 }
 
 .ul {
@@ -309,7 +310,12 @@ form {
     margin: 50px 10px;
 }
 .skills2 {
+    display: grid;
     width:220px;
+    grid-template-columns: repeat(9, 1fr);
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
 }
 
 h9 {
