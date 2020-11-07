@@ -235,39 +235,15 @@ textarea {
     margin: 2%;
 }
 
+.Proj3 {
+    margin: 4%;
+    margin-top: 15%;
+}
+
 .space {
     padding: 2%;
 }
 
-
-div.gallery {
-  border: 1px solid white;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-    margin-bottom: 20%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 40px;
-  float: left;
-  width: 49.99999%;
-}
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -309,14 +285,6 @@ form {
     max-width: 720px;
     margin: 50px 10px;
 }
-.skills2 {
-    display: grid;
-    width:220px;
-    grid-template-columns: repeat(9, 1fr);
-    padding-left: 0;
-    margin-left: -5px;
-    list-style: none;
-}
 
 h9 {
 font-size: 1.5rem;
@@ -328,8 +296,20 @@ font-size: 1.5rem;
 .skills-img {
     width: 60%;
     }
+    
+.skills2 {
+    display: grid;
+    width:220px;
+    grid-template-columns: repeat(9, 1fr);
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+
 
 }
+
 
 
 
