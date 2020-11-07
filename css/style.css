@@ -278,7 +278,8 @@ textarea {
 
 }
 #par {
-   	width:130%;
+    width: 180%;
+    margin-left: -30px;
    }
 form {
     max-width: 720px;
