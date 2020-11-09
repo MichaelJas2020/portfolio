@@ -173,6 +173,10 @@ font-weight: normal;
 text-align: center;
 }
 
+.card-group {
+        margin: 40px;
+    }
+
 
 
 /*	Contact Area	==================================================*/
@@ -305,6 +309,10 @@ font-size: 1.5rem;
     margin-left: -5px;
     list-style: none;
 }
+	
+.card-group {
+        margin: 0px;
+    }
 
 
 
