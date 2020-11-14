@@ -6,7 +6,7 @@ body {
 #h1-id {
   margin: auto;
   font-family: 'Sacramento', cursive;
-  font-size: 5.5rem;
+  font-size: 9rem;
   margin: 10px auto 0 auto;
   color: white;
   line-height: 2;
@@ -253,6 +253,9 @@ margin:50px auto;
     margin: 6px 0;
     padding: 30px;
   }
+#h1-id {
+    font-size: 5.5rem;
+}
     
     .space {
     padding: 2%;
