@@ -162,16 +162,6 @@ z-index: 1000;
    }
 
 
-.skills2 {
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    padding-left: 0;
-    margin-left: 10%;
-    list-style: none;
-    width: 80%;
-
-}
-
 
 .skills-img {
     width: 20%;
@@ -203,6 +193,70 @@ z-index: 1000;
 /*My Projects ends here*/
 
 /*---------------------------------------------------*/
+
+/*Education starts here*/
+
+.Ed {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    
+}
+
+.card-content {
+    padding: 30px;
+}
+
+.card-title {
+    line-height: 1.5rem;
+    font-size: 14px;
+    text-align: center;
+}
+
+.cardpic {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.card {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#cert {
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+
+
+
+
+
+
+/*Education starts here*/
+
+/*-------------------------------------------------------*/
+
+/*Skills starts here*/
+
+.skills2 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding-left: 0;
+    margin-left: 25%;
+    list-style: none;
+    width: 50%;
+    padding-bottom: 7%;
+
+}
+
+
+
+
+/*Skills ends here*/
+
+/*-----------------------------------------------------------*/
 
 /*	Contact Form starts here */
 
@@ -360,9 +414,16 @@ form {
     text-align: center;
 
 }
+    
+.skills2 {
+    margin-left: 15%;
+    list-style: none;
+    width: 70%;
+    padding-bottom: 7%;
 
 }
 
+}
 
 
 
