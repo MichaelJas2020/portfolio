@@ -334,10 +334,9 @@ form {
     margin: 50px 10px;
 }
 
-*/
+
 .skills-img {
-    width: 60%;
-    align-content: center;
+    width: 40%;
     }
     
 
@@ -354,8 +353,16 @@ form {
     
     }
     
+.skill-row {
+  width: 85%;
+    padding-top: 110px;
+  line-height: 2;
+    text-align: center;
 
 }
+
+}
+
 
 
 
