@@ -1,31 +1,116 @@
+/*Body starts here*/
+
 body {
   margin: 0;
 }
 
+#backgroud {
+    background-color: whitesmoke;
+}
+
+h2 {
+font-size: 2rem;
+font-weight: normal;
+text-align: center;
+
+}
+
+/*body ends here*/
+
+/*----------------------------------------------*/
+
+/*Navbar starts here*/
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: black;
+}
+
+.ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+   
+}
+
+
+/*Navbar ends here*/
+
+/*------------------------------------------------*/
+
+/*Landing page starts here*/
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:absolute;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+
 
 #h1-id {
   margin: auto;
-  font-family: 'Sacramento', cursive;
-  font-size: 9rem;
-  margin: 10px auto 0 auto;
-  color: white;
+  font-family:monospace;
+  font-size: 4rem;
+  margin: 5px auto 0 auto;
+  color: black;
   line-height: 2;
   text-align: center;
-  padding-top: 16rem;
+  padding-top: 1rem;
 
 }
 
 #h2-id {
-font-family: 'Montserrat', sans-serif;
+font-family:monospace;
 font-size: 1.5rem;
-color: white;
+color: black;
 font-weight: normal;
 text-align: center;
 
 }
 
 .TopContainer {
-background-color: black;
 position: relative;
 padding-top: 1px;
 background-size: cover;
@@ -50,122 +135,64 @@ height: 100vh;
 .navbar {
 z-index: 1000;
 
-    
 }
+
+
+/*Landing page ends here*/
+
+
+/*-----------------------------------------*/
+
+
+/*About me Starts here*/
+
+
 
 .skill-row {
   width: 50%;
-  margin: 270px auto 210px auto;
-  text-align: left;
+  margin: auto auto 210px auto;
+    padding-top: 11%;
   line-height: 2;
+    text-align: center;
 
 }
 
-.skills-img {
-  width: 23%;
-  float: left;
-  margin-right: 30px;
-  clear: left;
-    
-}
-
-#next {
-    background-color: dimgray;
-}
-
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    background-color: black;
-}
+#par {
+    text-align: center;
+   }
 
 
 .skills2 {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     padding-left: 0;
-    margin-left: 25%;
+    margin-left: 10%;
     list-style: none;
-
-}
-
-.ul {
-    margin-top: 0;
-    margin-bottom: 10px;
-   
-}
-
-h2 {
-font-family: 'Montserrat', sans-serif;
-font-size: 2rem;
-font-weight: normal;
-text-align: center;
-
-}
-
-.Proj2 {
-    font-family: 'Montserrat', sans-serif;
-font-size: 1rem;
-font-weight: normal;
-text-align: center;
-}
-
-
-
-.skills {
-    margin-bottom: 10%;
-}
-
-
-.bottom-container {
-  background-color: black;
-  padding: 50px 0 20px;
-}
-
-
-
-.end {
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  font-family: 'Montserrat', sans-serif;
-  padding: 20px 20px 0;
+    width: 80%;
 
 }
 
 
-#credits {
-	padding:20px 0;
-	font-size:12px;
-	line-height: 1.6;
-    background-color: black;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 7%;
-    
-}
-#credits a {
-	color:white;
-}
-#credits .social i {
-	border:1px solid #ccc;
-	height:30px;
-	width:30px;
-	line-height:30px;
-	border-radius:50%;
-	margin-left:2px;
-	color: white;
-	text-align:center;
-	margin-bottom:15px;
-	display:inline-block;
+.skills-img {
+    width: 20%;
+    align-content: center;
+    padding-bottom: 1%;
+    }
+
+
+/*About me endss here*/
+
+/*-----------------------------------------*/
+
+
+/*My Projects strats here*/
+.Proj {
+    margin: 2%;
 }
 
-h9 {
-font-family: 'Montserrat', sans-serif;
-font-size: 2rem;
-font-weight: normal;
-text-align: center;
+.Proj3 {
+    margin: 4%;
+    margin-top: 15%;
 }
 
 .card-group {
@@ -173,8 +200,11 @@ text-align: center;
     }
 
 
+/*My Projects ends here*/
 
-/*	Contact Area	==================================================*/
+/*---------------------------------------------------*/
+
+/*	Contact Form starts here */
 
 form { 
     
@@ -225,26 +255,43 @@ margin:50px auto;
 }
 [type="submit"]:hover { background:#CC4949; }
 
-
-
-/*projects*/
-.Proj {
-    margin: 2%;
+.Proj2 {
+text-align: center;
 }
 
-.Proj3 {
-    margin: 4%;
-    margin-top: 15%;
+/*	Contact Form ends here */
+
+
+/*----------------------------------------------------*/
+
+/*Footer Starts here*/
+
+#credits {
+	padding:20px 0;
+	font-size:12px;
+	line-height: 1.6;
+    background-color: rgb(52,58,64);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7%;
+    
+}
+#credits a {
+	color:white;
 }
 
-.space {
-    padding: 2%;
-}
+
+/*Footer endss here*/
+
+/*----------------------------------------------------*/
+
+/*@media starts here*/
 
 @media only screen and (max-width: 1256px) {
 #h1-id {
-    font-size: 5.5rem;
+    font-size: 3.75rem;
 }
+    h2 {
+font-size: 1.25rem;
 }
 
 @media only screen and (max-width: 700px) {
@@ -254,11 +301,11 @@ margin:50px auto;
     padding: 30px;
   }
 #h1-id {
-    font-size: 5.5rem;
+    font-size: 3rem;
 }
     
     .space {
-    padding: 2%;
+    padding: 1%;
 }
 }
 
@@ -273,45 +320,27 @@ margin:50px auto;
     margin-top: 30%;
     }
 #h1-id {
-  margin: auto;
-  font-family: 'Sacramento', cursive;
-  font-size: 4rem;
-  margin: 10px auto 0 auto;
-  color: white;
+  font-size: 2.5rem;
+  color: black;
   line-height: 1.5;
   text-align: center;
-  padding-top: 16rem;
+  padding-top: 1rem;
+    padding-bottom: 1rem;
 
 }
-#par {
-    width: 180%;
-    margin-left: -30px;
-   }
+
 form {
     max-width: 720px;
     margin: 50px 10px;
 }
 
-h9 {
-font-size: 1.5rem;
-}
- .skill-row {
-    margin: 75px auto 75px 50px;
-
-}
+*/
 .skills-img {
     width: 60%;
+    align-content: center;
     }
     
-.skills2 {
-    display: grid;
-    width:220px;
-    grid-template-columns: repeat(9, 1fr);
-    padding-left: 0;
-    margin-left: -5px;
-    list-style: none;
-}
-	
+
 .card-group {
         margin: 0px;
     }
@@ -324,9 +353,12 @@ font-size: 1.5rem;
     margin-bottom: 0px;
     
     }
+    
 
 }
 
 
 
+    
+    /*@media ends here*/
 
