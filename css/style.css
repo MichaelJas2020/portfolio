@@ -456,7 +456,24 @@ form {
     
     }
     
+@media only screen and (max-width: 400px) {
+ .responsive {
+    width: 100%;
+  }
+    
+    
+    
+.card-content {
+    padding: 10px;
+    padding-left: 4rem;
+    padding-right: 3rem;
+    
 
+}
+    
+
+    
+    }
 
 }
 
