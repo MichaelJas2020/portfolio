@@ -204,6 +204,7 @@ z-index: 1000;
 
 .card-content {
     padding: 30px;
+    padding-left: 10rem
 }
 
 .card-title {
@@ -223,6 +224,14 @@ z-index: 1000;
     margin-right: 18%;
 }
 
+.school {
+    text-align: center;
+    
+}
+
+.card-text {
+    text-align: center;
+}
 
 
 
@@ -342,6 +351,7 @@ text-align: center;
     h2 {
 font-size: 1.25rem;
 }
+}
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -377,6 +387,15 @@ font-size: 1.25rem;
     padding-bottom: 1rem;
 
 }
+    
+.card-content {
+    padding: 30px;
+    padding-left: 10rem;
+    padding-right: 2rem;
+    
+
+}
+    
 
 form {
     max-width: 720px;
@@ -417,6 +436,27 @@ form {
     padding-bottom: 7%;
 
 }
+    
+}
+    
+@media only screen and (max-width: 500px) {
+ .responsive {
+    width: 100%;
+  }
+    
+    
+    
+.card-content {
+    padding: 10px;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    
+
+}
+    
+    }
+    
+
 
 }
 
