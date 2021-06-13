@@ -202,6 +202,19 @@ z-index: 1000;
     
 }
 
+dl {
+    text-align: center;
+}
+
+dt {
+    text-align: center;
+}
+#lamb {
+    margin-top: -1.2rem;
+}
+
+
+
 .card-content {
     padding: 30px;
     padding-left: 10rem
@@ -390,7 +403,7 @@ font-size: 1.25rem;
     
 .card-content {
     padding: 30px;
-    padding-left: 8.5rem;
+    padding-left: 10rem;
     padding-right: 2rem;
     
 
@@ -456,6 +469,7 @@ form {
     
     }
     
+
 @media only screen and (max-width: 400px) {
  .responsive {
     width: 100%;
@@ -474,7 +488,6 @@ form {
 
     
     }
-
 }
 
 
